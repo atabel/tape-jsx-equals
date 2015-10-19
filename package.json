@@ -1,0 +1,36 @@
+{
+  "name": "tape-jsx-equals",
+  "version": "1.0.0",
+  "description": "tape assertion to compare react components",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/babel-node node_modules/.bin/tape 'tests/**/*.js' | ./node_modules/.bin/faucet",
+    "lint": "./node_modules/.bin/eslint src/ tests/",
+    "build": "./node_modules/.bin/babel -d dist/ src/",
+    "clean": "rm -r node_modules dist",
+    "prepublish": "npm run build"
+  },
+  "keywords": [
+    "test",
+    "tape",
+    "assert",
+    "jsx",
+    "react",
+    "extend-tape"
+  ],
+  "author": "atabel",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "eslint": "^1.7.1",
+    "eslint-plugin-react": "^3.6.2",
+    "extend-tape": "^1.0.1",
+    "faucet": "0.0.1",
+    "react": "^0.14.0",
+    "react-addons-test-utils": "^0.14.0",
+    "tape": "^4.2.1"
+  },
+  "dependencies": {
+    "react-element-to-jsx-string": "^2.0.4"
+  }
+}
