@@ -20,6 +20,10 @@
   ],
   "author": "atabel",
   "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/atabel/tape-jsx-equals.git"
+  },
   "devDependencies": {
     "babel": "^5.8.23",
     "eslint": "^1.7.1",
