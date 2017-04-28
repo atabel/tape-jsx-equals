@@ -2,6 +2,7 @@
   "name": "tape-jsx-equals",
   "version": "1.0.0",
   "description": "tape assertion to compare react components",
+  "repository": "https://github.com/atabel/tape-jsx-equals.git"
   "main": "dist/index.js",
   "scripts": {
     "test": "./node_modules/.bin/babel-node node_modules/.bin/tape 'tests/**/*.js' | ./node_modules/.bin/faucet",
