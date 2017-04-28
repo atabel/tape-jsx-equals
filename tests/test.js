@@ -1,5 +1,5 @@
 import React from 'react';
-import {createRenderer} from 'react-addons-test-utils';
+import { createRenderer } from 'react-dom/test-utils';
 import tape from 'tape';
 import addAssertions from 'extend-tape';
 import jsxEquals from '..';
