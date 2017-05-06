@@ -32,7 +32,7 @@
     "extend-tape": "^1.2.0",
     "faucet": "0.0.1",
     "react": "^15.5.4",
-    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
     "tape": "^4.6.3"
   },
   "dependencies": {
