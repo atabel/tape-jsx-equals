@@ -1,11 +1,11 @@
 import React from 'react';
-import {createRenderer} from 'react-addons-test-utils';
+import ReactShallowRenderer from 'react-test-renderer/shallow';
 import tape from 'tape';
 import addAssertions from 'extend-tape';
 import jsxEquals from '..';
 
 const test = addAssertions(tape, {jsxEquals});
-const renderer = createRenderer();
+const renderer = new ReactShallowRenderer();
 
 const MyComponent = function ({color}) {
     const className = `box color-${color}`;

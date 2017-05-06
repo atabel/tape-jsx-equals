@@ -1,6 +1,6 @@
 {
   "name": "tape-jsx-equals",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "tape assertion to compare react components",
   "main": "dist/index.js",
   "scripts": {
@@ -20,22 +20,22 @@
   ],
   "author": "atabel",
   "license": "MIT",
-  "repository" : {
-    "type" : "git",
-    "url" : "https://github.com/atabel/tape-jsx-equals.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/atabel/tape-jsx-equals.git"
   },
   "homepage": "https://github.com/atabel/tape-jsx-equals",
   "devDependencies": {
-    "babel": "^5.8.23",
-    "eslint": "^1.7.1",
-    "eslint-plugin-react": "^3.6.2",
-    "extend-tape": "^1.0.1",
+    "babel": "^5.8.38",
+    "eslint": "^1.10.3",
+    "eslint-plugin-react": "^3.16.1",
+    "extend-tape": "^1.2.0",
     "faucet": "0.0.1",
-    "react": "^0.14.0",
-    "react-addons-test-utils": "^0.14.0",
-    "tape": "^4.2.1"
+    "react": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
+    "tape": "^4.6.3"
   },
   "dependencies": {
-    "react-element-to-jsx-string": "^2.0.4"
+    "react-element-to-jsx-string": "^6.4.0"
   }
 }
